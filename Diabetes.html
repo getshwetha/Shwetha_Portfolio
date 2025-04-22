@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Diabetes and Cerebrovascular Disease Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
+
+			
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									
+									</h1>
+								</header>
+
+								<!-- Text stuff -->
+									<h2 align="center">Diabetes and Cerebrovascular Disease Analysis</h2>
+									
+									<H3>Objective:</H3>
+									<p> Effect of Diabetes on cerebrovascular disease in elderly patients </a>.</p>
+									
+
+								
+
+											<h3>Introduction</h3>
+											<ul>
+												<p>Diabetes is a medical condition where the body struggles to regulate blood sugar (glucose) levels. This can happen for two main reasons: either the body doesn't produce enough insulin (a hormone that helps control blood sugar) or the cells become resistant to insulin, preventing it from working properly. When blood sugar levels remain too high over time, it can lead to various health problems.</p>
+												
+											</ul>
+
+											
+
+											<h3>Data Cleaning</h3>
+											<ul>
+												<li>Utilized Power BI's Power Query feature to efficiently clean and transform the dataset directly within the interface.. </li>
+												<li>Removed rows containing null values using the "Remove Blank Rows" option to improve data quality.</li> 
+												<li>Applied data standardization techniques to ensure consistency in variables and data entry formats..</li>
+												<li>Addressed missing values by calculating them using Power Query language, ensuring accurate data transformation. The "Visit 8 Age" column, which was initially miscalculated, was corrected using data from the "Visit 2" column.</li>
+												<li>Enhanced data accuracy by recalculating BMI with a DAX function to correct a user error in the dataset..</li>
+												<li>Improved dataset relevance by removing redundant columns such as DM, Non-DM, and STROKE, as their information was already captured in the Group column..</li>
+												<li> Data accuracy was improved by recalculating BMI due to a user error in the dataset.</li> 
+												
+												
+											</ul>
+
+											<h3>Data Modelling</h3>
+											<ul>
+												<p>
+													In Power BI and Power Query, data was structured and categorized into logical tables such as Demographics, Labs, Cognitive Test, Diabetic Retinopathy, MRI, Walking Test, and Patient History to enhance both analysis and performance.
+
+A Relational Data Model (RDM) was created using these smaller logical tables, improving data organization. To facilitate seamless data integration, a surrogate key called ID was generated and added to all tables. Relationships between tables were then established using this ID key, enabling efficient data merging and analysis.
+
+By implementing the RDM, data integrity was significantly improved, ensuring accuracy and consistency. Leveraging this structured model in Power BI allows for intuitive visualizations and insightful data analysis, supporting informed decision-making.
+												</p>
+												
+											</ul>
+											<h3>Insights</h3>
+											<ul>
+												<p>
+													<li>Performed descriptive and statistical analysis, revealing a notable finding: individuals with diabetes exhibited a 38% higher likelihood of developing dementia..</li> 
+													<li>Analyzed patient data and determined that 96% of patients with a history of Diabetes for more than 15 years, develop Hypertension.</li>
+													<li>Conducted correlation analysis and identified a strong positive correlation between Reverse Dipping Blood Pressure and poor diabetes management, thus increasing the incidence of cardiovascular disease and an elevated 75% risk for cognitive impairment.</li>
+													
+												</p>
+												
+											</ul>
